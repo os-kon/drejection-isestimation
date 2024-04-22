@@ -3,12 +3,32 @@
 A recursive filtering approach for unbiased minimum-variance input-state estimation with concurrent disturbance rejection for discrete-time systems. The algorithms are based on the rejection of the
 disturbance terms before the design of the input-state estimation filter. The rejection step consists in nullifying the effect of the disturbance by injecting an equivalent output transformation in both state and measurement equations. The input and state estimation then follows by applying a filtering step on the modified system equations.
 
-### Getting started
+## Getting started
 
 Pull down a copy by downloading or cloning the repository
 
 ```shell
 git clone git@github.com:os-kon/drejection-isestimation.git
+cd drejection-isestimation
+```
+
+### Working with Poetry
+
+...
+
+### Working with Conda
+
+First, create a virtual environment using Conda:
+
+```shell
+conda create -n drej-ise python=3.11
+conda activate drej-ise
+```
+
+then installed the required packages using:
+
+```shell
+pip install -r requirements.txt
 ```
 
 ## Cite as
