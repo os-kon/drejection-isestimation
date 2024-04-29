@@ -25,7 +25,7 @@ conda create -n drej-ise python=3.11
 conda activate drej-ise
 ```
 
-then installed the required packages using:
+then install the required packages using:
 
 ```shell
 pip install -r requirements.txt
